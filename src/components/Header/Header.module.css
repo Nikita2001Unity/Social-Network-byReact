@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500&family=PT+Sans&display=swap');
+.header{
+    grid-area: h;
+    /* background-color: rgb(31, 141, 141); */
+    background: linear-gradient(45deg, #f8e2d4, rgb(31, 141, 141));
+    padding-left: 15px;
+    user-select: none;
+    line-height: 1px;
+  }
+  .header h3{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Cinzel';
+  }
+  .header p{
+    font-family: 'PT Sans';
+  }
+  

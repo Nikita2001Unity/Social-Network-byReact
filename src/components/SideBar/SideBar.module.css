@@ -1,0 +1,31 @@
+.nav {
+    /* position: fixed;
+    bottom: 0;
+    top: 60px;
+    min-width: 140px; */
+    margin-top: 15px;
+    margin-right: 15px;
+    /* background-color: rgb(31, 141, 141); */
+    background: linear-gradient(45deg, #f1d4c1, rgb(31, 141, 141));
+    grid-area: n;
+    text-align: center;
+    padding: 20px;
+    min-height:min-content;
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.item :hover{
+    color: rgb(208, 212, 187);
+    font-size: 25px;
+}
+.item a.active{
+    font-weight: 700;
+    color: bisque;
+    
+}
