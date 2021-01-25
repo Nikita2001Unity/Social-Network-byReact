@@ -5,27 +5,49 @@
     min-width: 140px; */
     margin-top: 15px;
     margin-right: 15px;
-    /* background-color: rgb(31, 141, 141); */
-    background: linear-gradient(45deg, #f1d4c1, rgb(31, 141, 141));
+    /* background-color: rgb(31, 141, 141); */background: #f7f3f3;
+    /* background: linear-gradient(45deg, #f1d4c1, rgb(31, 141, 141)); */
     grid-area: n;
     text-align: center;
     padding: 20px;
-    min-height:min-content;
+    min-height: 100%;
+    width: 200px;
 }
 
 .item a{
-    color: white;
+    color: rgb(94, 92, 92);
     text-decoration: none;
     font-size: 20px;
     user-select: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 .item :hover{
     color: rgb(208, 212, 187);
-    font-size: 25px;
 }
 .item a.active{
     font-weight: 700;
     color: bisque;
-    
+}
+img{
+    width: 60px;
+    border-radius: 50%;
+}
+h3{
+    font-size: 30px;
+}
+
+.friends{
+   display: inline-block;
+   font-family: Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(89, 82, 82);
+}
+.friends p :hover{
+    color: red
+}
+.friends img{
+    border:1px solid rgb(121, 118, 118);
+}
+.friends img:hover{
+border: 1px solid black;
 }

@@ -9,19 +9,20 @@ button{
   color: bisque;
   text-transform: uppercase;
   border: 1px solid bisque;
-  transition-duration: 0.4s;
+  transition-duration: 0.1s;
   font-weight: 700;
   font-size: 15px;
 }
 button:hover{
-  background-color: bisque; /* Green */
-  color: black;
+  color: rgb(19, 194, 19);
+  border: 1px solid rgb(19, 194, 19);
 }
 button:active{
- font-size: 20px;
+ opacity: 0.3;
 }
 button:hover:last-child{
   color:rgb(236, 84, 84);
+  border: 1px solid rgb(236, 84, 84);
 }
 textarea{
   border-radius: 30px;
@@ -35,6 +36,12 @@ textarea{
   border: 2px solid bisque;
   padding: 10px 0 0 20px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+textarea:focus{
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
 }
 
 .posts{

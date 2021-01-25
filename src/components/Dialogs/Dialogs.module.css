@@ -5,28 +5,39 @@ color: white;
 user-select: none;
 }
 .dialogsItem{
-padding: 10px;
+
 }
 .dialogsItem a{
     color: white;
     text-decoration: none;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
-.dialogsItem a::before{
-    content: '• ';
-}
+
 .dialogsItem a.active{
-    color: bisque;
-    font-size:20px;
+    color: rgb(184, 179, 172);
+    background:  #5d86dd;
 }
-.dialog{
-    padding-bottom: 10px;
+.dialogsItem a:hover{
+    background: #4a6dba;
 }
 .dialogsItem .active{
     color: slategray;
 }
 .messages{
-padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
 }
 .message{
-    padding-bottom: 10px;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
 }

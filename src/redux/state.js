@@ -1,4 +1,4 @@
-let state = {
+const state = {
     profilePage:{
         posts: [
             { id: '1', post: 'Hi,people? Who want on my party?', likesCount: '3' },
@@ -9,7 +9,7 @@ let state = {
             { id: '6', post: 'I\'m using this network', likesCount: '3' },
         ]
     },
-    messagesPage:{
+    dialogsPage:{
         messages:
     [
         { id: '1', message: "Call me!" },
@@ -25,6 +25,14 @@ let state = {
         { id: '6', name: 'Anton' }
     ],
     },
+    sideBar:{
+        friends:
+        [
+            {avatar:'https://365psd.com/images/istock/previews/1009/100996291-male-avatar-profile-picture-vector.jpg', name: 'Sveta'},
+            {avatar:'https://365psd.com/images/istock/previews/1009/100996291-male-avatar-profile-picture-vector.jpg', name: 'Dima'},
+            {avatar:'https://365psd.com/images/istock/previews/1009/100996291-male-avatar-profile-picture-vector.jpg', name: 'Irina'},
+        ]
+    }
     
 }
 

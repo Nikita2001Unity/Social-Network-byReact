@@ -1,6 +1,7 @@
 body{
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('http://ebbo.global/wp-content/uploads/2018/08/4k-wallpapers-phone-Is-4K-Wallpaper.jpg') fixed repeat;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url('http://wallpapers-image.ru/1920x1080/bridges/wallpapers/wallpapers-bridges-13.jpg') fixed repeat; */
   background-size: cover;
+  background:  #3b5998;
 }
 .app-wrapper{
   display: grid;
